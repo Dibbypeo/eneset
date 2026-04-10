@@ -25,7 +25,7 @@ void argList(int argc, char *argv[]) {
 			system("powerprofilesctl set balanced");
 			callInfo();
 		} else if ((strcmp(argv[1], "--version") == 0) || (strcmp(argv[1], "-v") == 0)) {
-			printf("eneset v0.1\nFree software. Fast power profile management.\n");
+			printf("eneset v0.2\nFree software. Fast power profile management.\n");
 		} else if (strcmp(argv[1], "status") == 0) {
 			callInfo();
 		} else if (strcmp(argv[1], "--help") == 0) {
